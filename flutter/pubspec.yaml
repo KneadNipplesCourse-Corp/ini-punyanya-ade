@@ -1,0 +1,40 @@
+name: ade_restapi
+description: "A new Flutter project for a shoe store application." # Updated description
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  get_storage: ^2.1.1
+  # Add for more icons and potentially future UI enhancements
+  font_awesome_flutter: ^10.7.0
+  # For beautiful shimmer loading effects
+  shimmer: ^3.0.0
+  # For network image caching and placeholder
+  cached_network_image: ^3.3.1
+  font_awesome_icon_class: ^0.0.6
+  font_awesome_flutter_named: ^1.1.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/AdidasUltraboost22.png
+    - assets/images/ConverseChuckTaylorAllStar.jpg
+    - assets/images/NikeAirMax270.png
+    - assets/images/PumaRS-XReinvention.png
+    - assets/images/VansOldSkool.jpg
